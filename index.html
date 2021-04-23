@@ -2,34 +2,131 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Get Your Covid-19 Certificate</title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="favicon" href="favicon.ico">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Chetan</title>
+  <link rel="shortcut icon" type="image/png" href="img/favicon.png"
 </head>
 
 <body>
-    <header>
-        <img src="modi.jpg">
-        <h4>Your Covid-19 Certificate</h4>
-        <h1> <a href="https://www.who.int/india/emergencies/coronavirus-disease-(covid-19)" target="_blank"
-                rel="noopener noreferrer">Covid-19 Certificate</a></h1>
-    </header>
-    <main>
+  <!-- Header -->
+  <section id="header">
+    <div class="header container">
+      <div class="nav-bar">
+        <div class="brand">
+          <a href="#hero">
+            <h1><span>C</span>hetan <span>D</span>ivekar</h1>
+          </a>
+        </div>
+        <div class="nav-list">
+          <div class="hamburger">
+            <div class="bar"></div>
+          </div>
+          <ul>
+            <li><a href="#hero" data-after="Home">Home</a></li>
+            <li><a href="#about" data-after="About">About</a></li>
+            <li><a href="#contact" data-after="Contact">Contact</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- End Header -->
 
-        <label for="name">Type Your Name</label>
-        <input required type="text" name="Name" autocomplete="name" placeholder="your name" id="name" minlength="3"
-            maxlength="15">
 
-        <Button id="submitBtn">Get Certificate</Button>
+  <!-- Hero Section  -->
+  <section id="hero">
+    <div class="hero container">
+      <div>
+        <h1>Hello, <span></span></h1>
+        <h1>My Name is <span></span></h1>
+        <h1>Chetan Divekar <span></span></h1>
+
+      </div>
+    </div>
+  </section>
+  <!-- End Hero Section  -->
 
 
-    </main>
-    <script src="https://unpkg.com/pdf-lib@1.4.0"></script>
-    <script src="./FileSaver.js"></script>
-    <script src="https://unpkg.com/@pdf-lib/fontkit@0.0.4"></script>
-    <script src="./index.js"></script>
+
+
+
+  <!-- About Section -->
+  <section id="about">
+    <div class="about container">
+      <div class="col-left">
+        <div class="about-img">
+          <img src="./img/img-2.png" alt="img">
+        </div>
+      </div>
+      <div class="col-right">
+        <h1 class="section-title">About <span>me</span></h1>
+        <h2>Developer</h2>
+        <p>Hello My name is chetan sunil divekar and I am pursuing the Computer Engineering degree.</p>
+        <p>
+          Web Developer. <br>
+          Android developer.
+        </p>
+
+      </div>
+    </div>
+  </section>
+  <!-- End About Section -->
+
+  <!-- Contact Section -->
+  <section id="contact">
+    <div class="contact container">
+      <div>
+        <h1 class="section-title">Contact <span>info</span></h1>
+      </div>
+      <div class="contact-items">
+        <div class="contact-item">
+          <div class="icon"><img src="https://img.icons8.com/bubbles/100/000000/phone.png" /></div>
+          <div class="contact-info">
+            <h1>Phone</h1>
+            <h2>+91 7400252976</h2>
+
+          </div>
+        </div>
+        <div class="contact-item">
+          <div class="icon"><img src="https://img.icons8.com/bubbles/100/000000/new-post.png" /></div>
+          <div class="contact-info">
+            <h1>Email</h1>
+            <h2>Chetandivekar6@gmail.com</h2>
+
+          </div>
+        </div>
+        <div class="contact-item">
+          <div class="icon"><img src="https://img.icons8.com/bubbles/100/000000/map-marker.png" /></div>
+          <div class="contact-info">
+            <h1>Address</h1>
+            <h2>Kandivali, Mumbai-400101</h2>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- End Contact Section -->
+
+  <!-- Footer -->
+  <section id="footer">
+    <div class="footer container">
+      <div class="brand">
+        <h1><span>C</span>hetan <span>D</span>ivekar</h1>
+      </div>
+      <h2>Personal Blog</h2>
+      <div class="social-icon">
+        <div class="social-item">
+          <a href="https://www.instagram.com/divekar.chetan" target="_blank"><img
+              src="https://img.icons8.com/bubbles/100/000000/instagram-new.png" /></a>
+        </div>
+      </div>
+      <p>Copyright © 2021 Chetan. All rights reserved</p>
+    </div>
+  </section>
+  <!-- End Footer -->
+  <script src="./app.js"></script>
 </body>
 
 </html>
