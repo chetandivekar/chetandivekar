@@ -3,7 +3,7 @@
 
 - 🔭 I’m currently working on [My PortFolio](https://div-chetan.netlify.app/)
 
-- 🌱 I’m currently learning **GraphQl**
+- 🌱 I’m currently learning **TypeScript**
 
 - 👨‍💻 All of my projects are available at [https://div-chetan.netlify.app/](https://div-chetan.netlify.app/)
 
