@@ -11,7 +11,7 @@
 
 - 📫 How to reach me **chetandivekar6@gmail.com**
 
-- 📄 Know about my experiences [https://drive.google.com/file/d/1p_sT0yI6wURIA8KMBbh6bQQelhzTAONG/view?usp=sharing]([https://drive.google.com/file/d/1ozYnX1dSEE5q56QZjTD6AtFrKSKQBh_A/view?usp=drivesdk](https://drive.google.com/file/d/1p_sT0yI6wURIA8KMBbh6bQQelhzTAONG/view?usp=sharing))
+- 📄 Know about my experiences [https://drive.google.com/file/d/1p_sT0yI6wURIA8KMBbh6bQQelhzTAONG/view?usp=sharing](https://drive.google.com/file/d/1p_sT0yI6wURIA8KMBbh6bQQelhzTAONG/view?usp=sharing)
 
 <h3 align="left">Connect with me:</h3>
 <p align="left">
